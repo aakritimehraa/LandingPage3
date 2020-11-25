@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+header{
+  
+    background: url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.menu.sticky{
+    padding: 10px 20px;
+    color: black;
+}
+.content h2{
+    text-align: center;
+    font-size: 5em;
+    font-family: sans-serif;
+    color: white;
+}
+.content p{
+    font-size: 1.2em;
+    font-family: sans-serif;
+    color: white;
+    line-height: 40px;
+}
+.content{
+    max-width: 1000px;
+    position: absolute;
+    text-align: center;
+
+}
+.content a{
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    background-color: rgb(155, 35, 75);
+    padding: 20px 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.box{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.ggg , .gggg , .ggggg {
+    background-color: rgb(30, 100, 83);
+    color: white;
+    width: 100%;
+    height: 100px;
+  border: 1px solid white;   
+}
+.menu .logo{
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 20px;
+}
+.menu.stickyy{
+    background-color: white;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5)
+}
+.menu.stickyy .logo{
+    color: black;
+}
+.menu.stickyy ul li{
+    color: black;
+}
+.logo span{
+    color: rgb(155, 35, 75);
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 20px;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.about h2{
+    font-size: 2em;
+}
+.textBox{
+    font-family: sans-serif;
+    line-height: 40px;
+    max-width: 800px;
+    padding: 10px 20px;
+}
+.imgBox{
+    background: url('https://images.pexels.com/photos/4191621/pexels-photo-4191621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    max-width: 100%;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 60%;
+}
+.about span{
+    color: rgb(155, 35, 75);
+    font-size: 3em;
+}
+.about{
+    margin-top: 10px;
+
+}
+
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+text-transform: uppercase;
+flex-direction: column;
+
+}
+.onee span{
+    color:  rgb(155, 35, 75);
+    font-size: 3em;
+    
+}
+.twoo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.twoo img{
+    width: 30%;
+    padding: 20px;
+    height: 400px;
+}
+
+.contact span{
+    color:  rgb(155, 35, 75);
+    font-size: 3em;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+   flex-direction: column;
+   margin-top: 40px;
+}
+.form{
+    background: url('bg2\ \(1\).jpg');
+   width: 100%;
+    margin: auto;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 20px;
+    width: 50%;
+    color: white;
+    background: transparent ;
+    backdrop-filter: blur(6px);
+
+    box-shadow: rgba(155, 50, 50, 0.5);
+}
+button{
+    width: 50%;
+    background:rgb(155, 35, 75) ;
+    padding: 20px;
+    margin-top: 20px;
+color: white;
+font-family: sans-serif;
+font-weight: 800;
+text-transform: uppercase;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form input, textarea, label{
+    margin-top: 20px;
+    width: 100%;
+
+}
+form input{
+    height: 50px;
+}
+textarea{
+    height: 100px;
+}
+
+
+.menu{
+position: fixed;
+top: 0;
+left: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+font-family: sans-serif;
+z-index:1
+}
+
+
+
+
+
+@media only screen and (max-width: 990px) {
+
+.content h2{
+    font-size: 1.5em;
+}
+.content p{
+    font-size: 1em;
+}
+.content a{
+    font-size: 0.8em;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 30px;
+}
+.textBox{
+    font-family: sans-serif;
+    line-height: 20px;
+width: 100%;
+max-lines: 2;
+}
+.menu ul{
+    display: none;
+}
+.imgBox{
+    width: 100%;
+    max-width: 100%;
+    max-height: 200px;
+}
+.logo{
+    position: relative;
+    max-width: 60px;
+}
+
+.toggleMenu{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: url('https://cdn4.iconfinder.com/data/icons/navigation-40/24/hamburger-menu-512.png');
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    z-index: 2;
+
+}
+.menu.sticky ul li{
+    color: white;
+}
+.menu ul.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu .navigation li a{
+    color: black;
+}
+
+.menu .navigation.active{
+width: 100%;
+height: 50vh;
+position: fixed;
+top: 0;
+left: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background: rgb(155, 35, 75) ;
+}
+form{
+    width: 100%;
+    height: 100%;
+}
+.menu.stickyy{
+    background-color: white;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5)
+}
+.menu.sticky{
+    background-color: white;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5)
+}
+.menu.stickyy .logo{
+color: black;
+}
+.twoo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.twoo img{
+    width: 100%;
+    max-height: 300px;
+}
+}
+@media only screen and (max-width: 1200px) {
+    .about {
+      display: flex;
+      flex-wrap: wrap;
+
+    }
+}
